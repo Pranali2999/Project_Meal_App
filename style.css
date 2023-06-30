@@ -1,0 +1,182 @@
+/* body and background styling */
+body {
+  width: 100%;
+  min-width: 200px;
+  background-color: white;
+  background-image: url(Assets/bg1.jpeg);
+  color: rgb(16, 13, 13);
+}
+/* header background-img*/
+#bg-img {
+  height: 200px;
+  margin-top: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(Assets/foodimg.jpeg);
+  background-size: 800px auto;
+}
+/* header heading section */
+#heading {
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* header search bar section */
+#searchbar {
+  max-width: 800px;
+  width: 500px;
+}
+
+#searchbar input {
+  height: 60px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+
+/* meal details container */
+#mealdetails {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #a9a73a;
+}
+#mealheader {
+  width: 70%;
+  margin: auto;
+}
+#meal-img img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+#details {
+  font-style: oblique;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#mealinstruction {
+  margin: auto;
+  text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+  background-color: #e4eaf1;
+}
+/* To style meal item after searching */
+.itemCard {
+  margin-bottom: 1.5rem;
+  width: 20rem;
+  background-color: #ee653e;
+  padding: 10px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.itemCard-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 20%;
+}
+
+.itemCard-body {
+  padding: 1.25rem;
+}
+
+.itemCard-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.itemCard-more-fav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1rem;
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn:hover {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn:active {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+.btn i {
+  font-family: "FontAwesome";
+}
+/* to style item not present in list */
+.item-not-found {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 6rem;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Image styles */
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Link styles */
+.btn-outline-light.mt-3 {
+  margin-top: 1.875rem;
+}
+
+/* to style suggestions list */
+ul#suggestions-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: wheat;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul#suggestions-list li {
+  padding: 10px;
+  background-color: #8e72ea;
+  cursor: pointer;
+}
+
+ul#suggestions-list li:hover {
+  background-color: #e9e9e9;
+}
